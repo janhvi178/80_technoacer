@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/img/logo.png";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,11 @@ const Navbar = () => {
     >
       <div className="container">
         <a className="navbar-brand" href="index.html">
-          <img src="./src/assests/img/logo.png" width="118" alt="logo" />
+          <img
+            src={logo}
+            width="118"
+            alt="logo"
+          />
         </a>
         <button
           className="navbar-toggler"

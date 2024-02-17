@@ -1,4 +1,5 @@
 import React from "react";
+import heroImage from "../assets/img/landing.jpg"; // Importing the image
 
 const Quotebox = () => {
   return (
@@ -6,7 +7,7 @@ const Quotebox = () => {
       <div
         className="bg-holder bg-size"
         style={{
-          backgroundImage: "url(assets/img/gallery/hero-bg.png)",
+          backgroundImage: "url(assets/img/landing.jpg)",
           backgroundPosition: "top center",
           backgroundSize: "cover",
         }}
@@ -17,7 +18,7 @@ const Quotebox = () => {
           <div className="col-md-5 col-xl-6 col-xxl-7 order-0 order-md-1 text-end">
             <img
               className="pt-7 pt-md-0 w-100"
-              src="assets/img/gallery/hero.png"
+              src={heroImage} // Using the imported image
               alt="hero-header"
             />
           </div>
@@ -36,7 +37,7 @@ const Quotebox = () => {
               href="#!"
               role="button"
             >
-              Kuch bolo 
+              Kuch bolo
             </a>
           </div>
         </div>
