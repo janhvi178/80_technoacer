@@ -93,34 +93,34 @@ const Footer = () => {
                 </li>
                 <li className="lh-lg">
                   <a className="footer-link" href="#!">
-                    Cardiac are
+                    Cardiac care
                   </a>
                 </li>
                 <li className="lh-lg">
                   <a className="footer-link" href="#!">
-                    Heart care
+                    Child care
                   </a>
                 </li>
               </ul>
             </div>
             <div className="col-6 col-sm-4 col-lg-2 mb-3 order-3 order-sm-2">
               <h5 className="lh-lg fw-bold text-light mb-4 font-sans-serif">
-                NGO's
+                Other's
               </h5>
               <ul className="list-unstyled mb-md-4 mb-lg-0">
                 <li className="lh-lg">
                   <a className="footer-link" href="#!">
-                    Free trial
+                    Locate
                   </a>
                 </li>
                 <li className="lh-lg">
                   <a className="footer-link" href="#!">
-                    Silver
+                    Network
                   </a>
                 </li>
                 <li className="lh-lg">
                   <a className="footer-link" href="#!">
-                    Premium
+                    Collaborators
                   </a>
                 </li>
               </ul>
@@ -161,7 +161,7 @@ const Footer = () => {
               <div className="col-12 col-sm-8 col-md-6">
                 <p className="fs--1 my-2 text-center text-md-end text-200">
                   {" "}
-                  Made By&nbsp;
+                  Made By TechnoAcer
                   <svg
                     className="bi bi-suit-heart-fill"
                     xmlns="http://www.w3.org/2000/svg"

@@ -30,12 +30,12 @@ const Services = () => {
                   <a className="text-decoration-none" href="#!">
                     <img
                       className="mb-3 deparment-icon"
-                      src="assets/img/icons/neurology.png"
+                      src="../src/assets/img/neurology.jpg"
                       alt="..."
                     />
                     <img
                       className="mb-3 deparment-icon-hover"
-                      src="assets/img/icons/neurology.svg"
+                      src="../src/assets/img/neurology.jpg"
                       alt="..."
                     />
                     <p className="fs-1 fs-xxl-2 text-center">Neurology</p>
@@ -49,12 +49,12 @@ const Services = () => {
                   <a className="text-decoration-none" href="#!">
                     <img
                       className="mb-3 deparment-icon"
-                      src="assets/img/icons/eye-care.png"
+                      src="../src/assets/img/eye care.jpg"
                       alt="..."
                     />
                     <img
                       className="mb-3 deparment-icon-hover"
-                      src="assets/img/icons/eye-care.svg"
+                      src="../src/assets/img/eye care.jpg"
                       alt="..."
                     />
                     <p className="fs-1 fs-xxl-2 text-center">Eye care</p>
@@ -68,12 +68,12 @@ const Services = () => {
                   <a className="text-decoration-none" href="#!">
                     <img
                       className="mb-3 deparment-icon"
-                      src="assets/img/icons/cardiac.png"
+                      src="../src/assets/img/cardiac care.jpg"
                       alt="..."
                     />
                     <img
                       className="mb-3 deparment-icon-hover"
-                      src="assets/img/icons/cardiac.svg"
+                      src="../src/assets/img/cardiac care.jpg"
                       alt="..."
                     />
                     <p className="fs-1 fs-xxl-2 text-center">Cardiac care</p>
@@ -87,15 +87,15 @@ const Services = () => {
                   <a className="text-decoration-none" href="#!">
                     <img
                       className="mb-3 deparment-icon"
-                      src="assets/img/icons/heart.png"
+                      src="../src/assets/img/child health.jpg"
                       alt="..."
                     />
                     <img
                       className="mb-3 deparment-icon-hover"
-                      src="assets/img/icons/heart.svg"
+                      src="../src/assets/img/child health.jpg"
                       alt="..."
                     />
-                    <p className="fs-1 fs-xxl-2 text-center">Heart care</p>
+                    <p className="fs-1 fs-xxl-2 text-center">Child care</p>
                   </a>
                 </div>
               </div>
@@ -106,12 +106,12 @@ const Services = () => {
                   <a className="text-decoration-none" href="#!">
                     <img
                       className="mb-3 deparment-icon"
-                      src="assets/img/icons/osteoporosis.png"
+                      src="../src/assets/img/osteo.jpg"
                       alt="..."
                     />
                     <img
                       className="mb-3 deparment-icon-hover"
-                      src="assets/img/icons/osteoporosis.svg"
+                      src="../src/assets/img/osteo.jpg"
                       alt="..."
                     />
                     <p className="fs-1 fs-xxl-2 text-center">Osteoporosis</p>
@@ -125,12 +125,12 @@ const Services = () => {
                   <a className="text-decoration-none" href="#!">
                     <img
                       className="mb-3 deparment-icon"
-                      src="assets/img/icons/ent.png"
+                      src="../src/assets/img/ent.jpg"
                       alt="..."
                     />
                     <img
                       className="mb-3 deparment-icon-hover"
-                      src="assets/img/icons/ent.svg"
+                      src="../src/assets/img/ent.jpg"
                       alt="..."
                     />
                     <p className="fs-1 fs-xxl-2 text-center">ENT</p>
