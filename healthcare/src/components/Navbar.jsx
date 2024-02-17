@@ -8,7 +8,7 @@ const Navbar = () => {
     >
       <div className="container">
         <a className="navbar-brand" href="index.html">
-          <img src="assets/img/gallery/logo.png" width="118" alt="logo" />
+          <img src="./src/assests/img/logo.png" width="118" alt="logo" />
         </a>
         <button
           className="navbar-toggler"
@@ -43,12 +43,12 @@ const Navbar = () => {
             </li>
             <li className="nav-item px-2">
               <a className="nav-link" href="#findUs">
-                Help
+                vaccine awareness
               </a>
             </li>
             <li className="nav-item px-2">
               <a className="nav-link" href="#findUs">
-                Contact
+                blogs and papers
               </a>
             </li>
           </ul>
