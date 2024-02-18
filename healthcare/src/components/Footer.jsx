@@ -17,16 +17,16 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <h2 className="fw-bold text-light">Get an update every week</h2>
+              <h2 className="fw-bold text-light">The Timely Updates</h2>
               <p className="text-soft-primary">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, vel!{" "}
+                Get updates of your next vaccine on your SMS.{" "}
                 <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Know your next appointment on your dashboard!
               </p>
             </div>
             <div className="col-lg-6">
               <h5 className="mb-3 text-soft-primary">
-                SUBSCRIBE TO NEWSLETTER{" "}
+                Sign in for Vaccine Drives{" "}
               </h5>
               <form className="row gx-2 gy-2 align-items-center">
                 <div className="col">
@@ -47,7 +47,7 @@ const Footer = () => {
                     className="btn btn-lg btn-light rounded-3 px-5 py-3"
                     type="submit"
                   >
-                    Subscribe
+                    Sign In
                   </button>
                 </div>
               </form>

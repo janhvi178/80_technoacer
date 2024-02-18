@@ -8,10 +8,12 @@ const Quotebox = () => {
         className="bg-holder bg-size"
         style={{
           backgroundImage: "url(assets/img/landing.jpg)",
-          backgroundPosition: "top center",
+          backgroundPosition: "center",
           backgroundSize: "cover",
+          opacity: 0.7,
         }}
-      ></div>
+      >
+      </div>
       {/*/.bg-holder*/}
       <div className="container">
         <div className="row min-vh-xl-100 min-vh-xxl-25">
@@ -37,7 +39,7 @@ const Quotebox = () => {
               href="#!"
               role="button"
             >
-              Kuch bolo
+              Get Started
             </a>
           </div>
         </div>

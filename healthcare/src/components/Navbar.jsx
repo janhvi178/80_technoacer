@@ -32,28 +32,28 @@ const Navbar = () => {
         >
           <ul className="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
             <li className="nav-item px-2">
-              <a className="nav-link" aria-current="page" href="#about">
+              <a className="nav-link" aria-current="page" href="about.html">
                 About Us
               </a>
             </li>
             <li className="nav-item px-2">
-              <a className="nav-link" href="#departments">
+              <a className="nav-link" href="../public/council/contact.html">
                 Connect
               </a>
             </li>
             <li className="nav-item px-2">
-              <a className="nav-link" href="#findUs">
+              <a className="nav-link" href="../public/council/counselor.html">
                 Counselling
               </a>
             </li>
             <li className="nav-item px-2">
               <a className="nav-link" href="#findUs">
-                vaccine awareness
+                Vaccine
               </a>
             </li>
             <li className="nav-item px-2">
               <a className="nav-link" href="#findUs">
-                blogs and papers
+                Blogs
               </a>
             </li>
           </ul>
