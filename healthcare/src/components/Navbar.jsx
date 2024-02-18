@@ -8,12 +8,8 @@ const Navbar = () => {
       data-navbar-on-scroll="data-navbar-on-scroll"
     >
       <div className="container">
-        <a className="navbar-brand" href="index.html">
-          <img
-            src={logo}
-            width="118"
-            alt="logo"
-          />
+        <a className="navbar-brand" href="/">
+          <img src={logo} width="118" alt="logo" />
         </a>
         <button
           className="navbar-toggler"
@@ -32,7 +28,11 @@ const Navbar = () => {
         >
           <ul className="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
             <li className="nav-item px-2">
-              <a className="nav-link" aria-current="page" href="about.html">
+              <a
+                className="nav-link"
+                href="healthcare\src\council\index.html"
+                target="blank"
+              >
                 About Us
               </a>
             </li>
@@ -42,7 +42,10 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item px-2">
-              <a className="nav-link" href="../public/council/counselor.html">
+              <a
+                className="nav-link"
+                href="healthcare\src\council\contact.html"
+              >
                 Counselling
               </a>
             </li>

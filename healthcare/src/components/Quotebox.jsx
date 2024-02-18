@@ -7,14 +7,13 @@ const Quotebox = () => {
       <div
         className="bg-holder bg-size "
         style={{
-          backgroundImage: "url(assets/img/landing.jpg)",
+          backgroundImage: `url(${heroImage})`, // Using the imported image
           backgroundPosition: "center",
           backgroundSize: "cover",
           opacity: 0.7,
           height: "100vh" , 
         }}
-      >
-      </div>
+      ></div>
       {/*/.bg-holder*/}
       <div className="container h-100">
         <div className="row h-100 align-items-center">
@@ -37,10 +36,11 @@ const Quotebox = () => {
             </p>
             <a
               className="btn btn-lg btn-primary rounded-pill"
-              href="#!"
+              href="https://meet.google.com/vgo-jwdx-icc"
               role="button"
+              target="_blank"
             >
-              Get Started
+              Connect with us
             </a>
           </div>
         </div>
