@@ -1,9 +1,5 @@
 import React from "react";
 import logo from "../assets/img/logo.png";
-// import logo from "../council/index.html";
-import { Link } from "react-router-dom";
-import About from "../pages/About";
-
 
 const Navbar = () => {
   return (
@@ -12,7 +8,7 @@ const Navbar = () => {
       data-navbar-on-scroll="data-navbar-on-scroll"
     >
       <div className="container">
-        <a className="navbar-brand" href="">
+        <a className="navbar-brand" href="/">
           <img src={logo} width="118" alt="logo" />
         </a>
         <button
@@ -32,15 +28,13 @@ const Navbar = () => {
         >
           <ul className="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
             <li className="nav-item px-2">
-<<<<<<< Updated upstream
-              <a className="nav-link" aria-current="page" href="about.html">
-=======
-              <a className="nav-link" href="">
-                {/* <Link  to="/About.jsx" className="nav-link" aria-current="page" > */}
->>>>>>> Stashed changes
+              <a
+                className="nav-link"
+                href="healthcare\src\council\index.html"
+                target="blank"
+              >
                 About Us
               </a>
-              {/* </Link> */}
             </li>
             <li className="nav-item px-2">
               <a className="nav-link" href="../public/council/contact.html">
@@ -48,11 +42,10 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item px-2">
-<<<<<<< Updated upstream
-              <a className="nav-link" href="../public/council/counselor.html">
-=======
-              <a className="nav-link" href="../council/index.html">
->>>>>>> Stashed changes
+              <a
+                className="nav-link"
+                href="healthcare\src\council\contact.html"
+              >
                 Counselling
               </a>
             </li>
