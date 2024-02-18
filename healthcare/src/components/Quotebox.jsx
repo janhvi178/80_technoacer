@@ -36,10 +36,15 @@ const Quotebox = () => {
             </p>
             <a
               className="btn btn-lg btn-primary rounded-pill"
-              href="#!"
+              href="https://meet.google.com/vgo-jwdx-icc"
               role="button"
+              target="blank"
             >
+<<<<<<< Updated upstream
               Get Started
+=======
+              Connect with us
+>>>>>>> Stashed changes
             </a>
           </div>
         </div>
