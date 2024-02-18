@@ -669,7 +669,7 @@ const Home = () => {
               <div className="col-lg-6 z-index-2 mb-5">
                 <img
                   className="w-100"
-                  src="assets/img/gallery/appointment.png"
+                  src="/src/assets/img//appointment.jpg"
                   alt="..."
                 />
               </div>

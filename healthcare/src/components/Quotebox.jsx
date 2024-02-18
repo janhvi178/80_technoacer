@@ -3,19 +3,20 @@ import heroImage from "../assets/img/landing.jpg"; // Importing the image
 
 const Quotebox = () => {
   return (
-    <section className="py-xxl-10 pb-0" id="home">
+    <section className="py-xxl-10 pb-0 position-relative" id="home">
       <div
-        className="bg-holder bg-size"
+        className="bg-holder bg-size "
         style={{
           backgroundImage: `url(${heroImage})`, // Using the imported image
           backgroundPosition: "center",
           backgroundSize: "cover",
           opacity: 0.7,
+          height: "100vh" , 
         }}
       ></div>
       {/*/.bg-holder*/}
-      <div className="container">
-        <div className="row min-vh-xl-100 min-vh-xxl-25">
+      <div className="container h-100">
+        <div className="row h-100 align-items-center">
           <div className="col-md-5 col-xl-6 col-xxl-7 order-0 order-md-1 text-end">
             <img
               className="pt-7 pt-md-0 w-100"
